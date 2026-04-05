@@ -1,0 +1,25 @@
+<svg width="720" height="920" viewBox="0 0 720 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="56" y1="40" x2="664" y2="880" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7D3"/>
+      <stop offset="0.45" stop-color="#B6F0D9"/>
+      <stop offset="1" stop-color="#F6C667"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="360" y1="118" x2="360" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 308) rotate(90) scale(230 230)">
+      <stop stop-color="#FFF0B7"/>
+      <stop offset="1" stop-color="#FFF0B7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="920" rx="180" fill="url(#bg)"/>
+  <circle cx="360" cy="308" r="230" fill="url(#halo)"/>
+  <rect x="86" y="118" width="548" height="742" rx="154" fill="url(#panel)"/>
+  <path d="M360 278C287.307 278 228 337.307 228 410V860H492V410C492 337.307 432.693 278 360 278Z" fill="#21201F" fill-opacity="0.12"/>
+  <circle cx="360" cy="252" r="104" fill="#21201F" fill-opacity="0.12"/>
+  <text x="360" y="748" text-anchor="middle" fill="#1F1F1F" font-family="Arial, sans-serif" font-size="126" font-weight="700" letter-spacing="-6">AV</text>
+  <text x="360" y="804" text-anchor="middle" fill="#1F1F1F" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">PORTRAIT PLACEHOLDER</text>
+</svg>
